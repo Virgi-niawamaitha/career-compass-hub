@@ -15,11 +15,22 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission would go here
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`Message from ${formData.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    const mailtoLink = `mailto:wamaithavirginia83@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
     toast({
-      title: "Message sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
+      title: "Opening email client...",
+      description: "Your default email app should open with the message.",
     });
+    
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -85,10 +96,11 @@ const ContactSection = () => {
               {/* Social links */}
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/virgi-niawamaitha"
+                  href="https://github.com/Virgi-niawamaitha"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-lg bg-card border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
+                  aria-label="GitHub Profile"
                 >
                   <Github className="w-5 h-5" />
                 </a>
@@ -97,6 +109,7 @@ const ContactSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-lg bg-card border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
+                  aria-label="LinkedIn Profile"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
