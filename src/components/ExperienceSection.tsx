@@ -7,7 +7,35 @@ const experiences = [
     organization: "Mt. Kenya University, Thika, Kenya",
     period: "Expected Graduation: August 2026",
     description: "Studying software engineering, AI/ML, and quality assurance. Active member of GDSC, AWS Cloud Club, and Women in Tech Kenya, participating in tech events and learning from the community.",
-    highlights: ["Computer Science", "GDSC Member", "AWS Cloud Club", "Women in Tech Kenya"],
+    highlights: [
+      "Software Quality Assurance",
+      "Software Engineering",
+      "System Analysis and Design",
+      "Database Systems",
+      "Data Structures and Algorithms",
+      "Advanced Web Design and Development",
+      "Internet Programming",
+      "Human Computer Interaction",
+      "Operating Systems",
+      "Object Oriented Programming",
+      "Computer Architecture",
+      "Data Communication and Networks"
+    ],
+  },
+  {
+    type: "education",
+    title: "Diploma in Information Technology",
+    organization: "Technical Institute",
+    period: "2020 - 2022",
+    description: "Completed foundational IT coursework covering fundamental computing concepts, programming, and system administration.",
+    highlights: [
+      "Introduction to Programming",
+      "Computer Networks",
+      "Web Development Fundamentals",
+      "Information Systems",
+      "Computer Maintenance",
+      "Digital Literacy"
+    ],
   },
   {
     type: "experience",
