@@ -1,28 +1,33 @@
 const skillCategories = [
   {
     title: "Testing & QA",
-    skills: ["Manual Testing", "Bug Identification", "UI/UX Validation", "Test Documentation", "Regression Testing"],
+    skills: ["Manual Testing", "System Testing", "Bug Identification", "Code Debugging", "UI/UX Validation", "Documentation"],
     color: "from-primary to-cyan-400",
   },
   {
     title: "Web Technologies",
-    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Tailwind CSS"],
+    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Responsive Design"],
     color: "from-blue-400 to-indigo-500",
   },
   {
     title: "Programming",
-    skills: ["Python", "Flask", "Java", "C", "SQL"],
+    skills: ["Python", "Flask", "Java", "C", "SQL", "Database Design"],
     color: "from-emerald-400 to-teal-500",
   },
   {
-    title: "Tools & Platforms",
-    skills: ["Git", "GitHub", "VS Code", "Postman", "Chrome DevTools"],
+    title: "Tools & Version Control",
+    skills: ["Git", "GitHub", "VS Code"],
     color: "from-orange-400 to-rose-500",
   },
   {
-    title: "Concepts",
-    skills: ["SDLC", "Agile/Scrum", "Debugging", "Documentation", "API Testing"],
+    title: "AI/ML",
+    skills: ["RAG-based AI Systems", "TensorFlow", "Intelligent Assistants", "NLP"],
     color: "from-violet-400 to-purple-500",
+  },
+  {
+    title: "IT Support",
+    skills: ["Hardware/Software Installation", "Troubleshooting", "User Support", "Network Monitoring"],
+    color: "from-pink-400 to-rose-500",
   },
 ];
 

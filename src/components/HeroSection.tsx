@@ -24,18 +24,18 @@ const HeroSection = () => {
         {/* Main heading */}
         <h1 className="animate-fade-up-delay-1 font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Hi, I'm{" "}
-          <span className="gradient-text">Your Name</span>
+          <span className="gradient-text">Virginia Wamaitha</span>
         </h1>
 
         {/* Subtitle */}
         <p className="animate-fade-up-delay-2 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 font-heading">
-          Computer Science Student | QA & Software Testing Enthusiast
+          Computer Science Student | AI Enthusiast | QA & Software Testing Explorer
         </p>
 
         {/* Value statement */}
         <p className="animate-fade-up-delay-2 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground/80 mb-10 leading-relaxed">
-          Passionate about building reliable software through meticulous testing 
-          and clean code. Constantly learning, adapting, and solving problems 
+          Passionate about AI and building reliable software through meticulous testing. 
+          Currently exploring Quality Assurance while developing intelligent systems 
           with a quality-first mindset.
         </p>
 

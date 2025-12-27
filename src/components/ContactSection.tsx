@@ -59,7 +59,7 @@ const ContactSection = () => {
 
               <div className="space-y-4">
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:wamaithavirginia83@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary/30 transition-all duration-300 group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -67,7 +67,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">your.email@example.com</p>
+                    <p className="font-medium">wamaithavirginia83@gmail.com</p>
                   </div>
                 </a>
 
@@ -77,7 +77,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="font-medium">Your City, Country</p>
+                    <p className="font-medium">Thika, Kenya</p>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const ContactSection = () => {
               {/* Social links */}
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/virgi-niawamaitha"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-lg bg-card border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
@@ -93,7 +93,7 @@ const ContactSection = () => {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-lg bg-card border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
