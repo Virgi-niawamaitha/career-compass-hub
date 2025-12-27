@@ -6,9 +6,8 @@ const experiences = [
     title: "Bachelor of Science in Computer Science",
     organization: "Mt. Kenya University, Thika, Kenya",
     period: "Expected Graduation: August 2026",
-    description: "Studying software engineering, AI/ML, and quality assurance. Active member of GDSC, AWS Cloud Club, and Women in Tech Kenya, participating in tech events and learning from the community.",
+    description: "Pursuing comprehensive computer science education covering software development, database management, and system design. Active member of GDSC, AWS Cloud Club, and Women in Tech Kenya.",
     highlights: [
-      "Software Quality Assurance",
       "Software Engineering",
       "System Analysis and Design",
       "Database Systems",
