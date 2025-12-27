@@ -41,19 +41,21 @@ const AboutSection = () => {
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-lg text-foreground/90 leading-relaxed">
-              I'm a 4th-year Computer Science student at Mt. Kenya University with a strong 
-              passion for AI and software quality. My journey includes hands-on experience from 
-              a government IT internship and active participation in tech communities.
+              I'm a 4th-year Computer Science student at Mt. Kenya University with strong foundations 
+              in web technologies (HTML, CSS, JavaScript/TypeScript) and a passion for Quality Assurance. 
+              My journey includes hands-on experience from a government IT internship and active 
+              participation in tech communities.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              With practical exposure to IT support, software testing, and quality assurance, 
-              I approach each task with analytical thinking and attention to detail. I'm an 
-              active member of GDSC, AWS Cloud Club, Women in Tech Kenya, and ReadyTensor Community.
+              With practical exposure to IT support, manual testing, and software development, 
+              I approach every project with analytical thinking and attention to detail. Proficient 
+              in Git/GitHub for version control and collaborative development. Active member of 
+              GDSC, AWS Cloud Club, and Women in Tech Kenya.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Currently seeking QA/QE attachment opportunities to develop automated testing 
-              expertise and contribute to software quality assurance while continuing to 
-              explore AI and intelligent systems.
+              Eager to grow through professional training programs and real-world engineering experiences. 
+              Ready to contribute quality-focused work while expanding my skills in QA methodologies, 
+              testing frameworks, and software engineering best practices.
             </p>
           </div>
 

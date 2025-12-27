@@ -29,14 +29,14 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="animate-fade-up-delay-2 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 font-heading">
-          Computer Science Student | AI Enthusiast | QA & Software Testing Explorer
+          Computer Science Student | QA & Software Testing Enthusiast | Web Developer
         </p>
 
         {/* Value statement */}
         <p className="animate-fade-up-delay-2 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground/80 mb-10 leading-relaxed">
-          Passionate about AI and building reliable software through meticulous testing. 
-          Currently exploring Quality Assurance while developing intelligent systems 
-          with a quality-first mindset.
+          Building reliable, quality-focused software with strong foundations in HTML, CSS, JavaScript, and Git. 
+          Passionate about Quality Assurance, software testing, and creating robust web applications. 
+          Ready to grow and learn in professional engineering environments.
         </p>
 
         {/* CTA Buttons */}
