@@ -51,13 +51,13 @@ const ResumeSection = () => {
               {/* Action buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button variant="hero" size="lg" asChild>
-                  <a href="/resume.pdf" download>
+                  <a href="/career-compass-hub/resume.pdf" download>
                     <Download size={20} className="mr-2" />
                     Download CV
                   </a>
                 </Button>
                 <Button variant="hero-outline" size="lg" asChild>
-                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/career-compass-hub/resume.pdf" target="_blank" rel="noopener noreferrer">
                     <Eye size={20} className="mr-2" />
                     View Online
                   </a>
