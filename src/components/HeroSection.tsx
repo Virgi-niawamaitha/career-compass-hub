@@ -29,14 +29,14 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="animate-fade-up-delay-2 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 font-heading">
-          Software Engineer | AI/ML Enthusiast | QA/QE Specialist | Full-Stack Developer
+          Computer Science Student | Aspiring Software Engineer
         </p>
 
         {/* Value statement */}
         <p className="animate-fade-up-delay-2 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground/80 mb-10 leading-relaxed">
-          Building intelligent, quality-driven software solutions with expertise in web technologies 
-          (React, TypeScript, JavaScript), AI/ML development (Python), and rigorous QA/testing practices. 
-          Passionate about creating reliable applications and solving complex problems through code and automation.
+          Building projects with web technologies (HTML, CSS, JavaScript, React), exploring AI/ML with Python, 
+          and learning software testing practices. Seeking attachment opportunities to grow my skills and 
+          contribute to real-world software development.
         </p>
 
         {/* CTA Buttons */}

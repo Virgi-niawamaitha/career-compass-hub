@@ -6,8 +6,8 @@ const experiences = [
     title: "Bachelor of Science in Computer Science",
     organization: "Mt. Kenya University, Thika, Kenya",
     period: "Expected Graduation: August 2026",
-    description: "Currently in 4th year, focusing on software engineering, AI/ML, and quality assurance. Active member of GDSC, AWS Cloud Club, and Women in Tech Kenya.",
-    highlights: ["4th Year", "GDSC Member", "AWS Cloud Club", "Women in Tech Kenya"],
+    description: "Studying software engineering, AI/ML, and quality assurance. Active member of GDSC, AWS Cloud Club, and Women in Tech Kenya, participating in tech events and learning from the community.",
+    highlights: ["Computer Science", "GDSC Member", "AWS Cloud Club", "Women in Tech Kenya"],
   },
   {
     type: "experience",

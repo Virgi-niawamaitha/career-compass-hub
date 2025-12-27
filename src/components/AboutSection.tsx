@@ -41,23 +41,21 @@ const AboutSection = () => {
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-lg text-foreground/90 leading-relaxed">
-              Hi! I'm Virginia Wamaitha, a 4th-year Computer Science student at Mt. Kenya University 
-              specializing in Quality Assurance and AI/ML. What drives me? The intersection of building 
-              intelligent systems and ensuring they work flawlessly—combining the creativity of AI 
-              development with the rigor of software testing.
+              Hi! I'm Virginia Wamaitha, a Computer Science student at Mt. Kenya University 
+              passionate about software development, AI/ML, and quality assurance. I love building 
+              projects that solve real problems and learning new technologies along the way.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My technical journey spans web development (HTML, CSS, JavaScript/TypeScript, React), 
-              AI/ML projects (Python, data analysis), and rigorous QA practices. During my government 
-              IT internship at the Ministry of ICT, I discovered my passion for both building and 
-              breaking systems—creating intelligent solutions while ensuring reliability through 
-              systematic testing and quality assurance.
+              I've gained hands-on experience through a government IT internship at the Ministry of ICT, 
+              where I worked with hardware/software installation and technical support. My projects span 
+              web development (HTML, CSS, JavaScript, React), AI/ML exploration (Python), and testing 
+              practices. I'm comfortable with Git/GitHub and enjoy collaborating in tech communities 
+              like GDSC, AWS Cloud Club, and Women in Tech Kenya.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I thrive in tech communities (GDSC, AWS Cloud Club, Women in Tech Kenya) and am actively 
-              building projects that showcase both AI capabilities and QA expertise. Currently seeking 
-              opportunities in software engineering, QA/QE, AI/ML, or full-stack development where I can 
-              contribute to building reliable, intelligent systems while growing my technical skills.
+              Currently seeking attachment opportunities to grow my skills in software engineering, 
+              QA/testing, AI/ML, or web development. I'm eager to learn, contribute to real-world 
+              projects, and develop my technical abilities in a professional environment.
             </p>
           </div>
 
