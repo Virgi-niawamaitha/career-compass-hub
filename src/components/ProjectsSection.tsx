@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "File Upload Management System",
-    description: "A web-based file upload system with comprehensive input validation, error handling, and multi-format file management. Emphasized manual testing methodologies, edge case identification, and user experience validation.",
+    description: "A web-based file upload system with comprehensive input validation, error handling, and multi-format file management. Conducted systematic testing: boundary testing (file size limits 0KB-100MB), format validation (PDF/DOC/TXT), error state verification, accessibility testing (keyboard navigation), and cross-browser compatibility checks (Chrome/Firefox/Safari).",
     technologies: ["HTML5", "CSS3", "JavaScript", "Form Validation", "Git"],
     category: "QA",
     demoUrl: "https://virgi-niawamaitha.github.io/pdf-whisper-scribe/",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Interactive Blog Platform",
-    description: "A fully responsive blog platform featuring structured content layout, smooth navigation, and cross-browser compatibility. Built to practice front-end fundamentals and conduct systematic UI/UX testing.",
+    description: "A fully responsive blog platform featuring structured content layout, smooth navigation, and cross-browser compatibility. Performed extensive UI testing: responsive design validation (320px-4K displays), navigation flow testing, content rendering checks, page load performance analysis, and user interaction testing (click events, form submissions, search functionality).",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Git"],
     category: "Web",
     demoUrl: "https://virgi-niawamaitha.github.io/Tech_Blog/",

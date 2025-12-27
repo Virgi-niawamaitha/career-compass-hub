@@ -41,21 +41,23 @@ const AboutSection = () => {
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-lg text-foreground/90 leading-relaxed">
-              I'm a 4th-year Computer Science student at Mt. Kenya University with strong foundations 
-              in web technologies (HTML, CSS, JavaScript/TypeScript) and a passion for Quality Assurance. 
-              My journey includes hands-on experience from a government IT internship and active 
-              participation in tech communities.
+              Hi! I'm Virginia Wamaitha, a 4th-year Computer Science student at Mt. Kenya University 
+              specializing in Quality Assurance and AI/ML. What drives me? The intersection of building 
+              intelligent systems and ensuring they work flawlessly—combining the creativity of AI 
+              development with the rigor of software testing.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              With practical exposure to IT support, manual testing, and software development, 
-              I approach every project with analytical thinking and attention to detail. Proficient 
-              in Git/GitHub for version control and collaborative development. Active member of 
-              GDSC, AWS Cloud Club, and Women in Tech Kenya.
+              My technical journey spans web development (HTML, CSS, JavaScript/TypeScript, React), 
+              AI/ML projects (Python, data analysis), and rigorous QA practices. During my government 
+              IT internship at the Ministry of ICT, I discovered my passion for both building and 
+              breaking systems—creating intelligent solutions while ensuring reliability through 
+              systematic testing and quality assurance.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Eager to grow through professional training programs and real-world engineering experiences. 
-              Ready to contribute quality-focused work while expanding my skills in QA methodologies, 
-              testing frameworks, and software engineering best practices.
+              I thrive in tech communities (GDSC, AWS Cloud Club, Women in Tech Kenya) and am actively 
+              building projects that showcase both AI capabilities and QA expertise. Currently seeking 
+              opportunities in software engineering, QA/QE, AI/ML, or full-stack development where I can 
+              contribute to building reliable, intelligent systems while growing my technical skills.
             </p>
           </div>
 

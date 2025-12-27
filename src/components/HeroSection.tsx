@@ -1,4 +1,4 @@
-import { ArrowRight, FileText, FolderOpen, Mail } from "lucide-react";
+import { ArrowRight, FileText, FolderOpen, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -29,14 +29,14 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="animate-fade-up-delay-2 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 font-heading">
-          Computer Science Student | QA & Software Testing Enthusiast | Web Developer
+          Software Engineer | AI/ML Enthusiast | QA/QE Specialist | Full-Stack Developer
         </p>
 
         {/* Value statement */}
         <p className="animate-fade-up-delay-2 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground/80 mb-10 leading-relaxed">
-          Building reliable, quality-focused software with strong foundations in HTML, CSS, JavaScript, and Git. 
-          Passionate about Quality Assurance, software testing, and creating robust web applications. 
-          Ready to grow and learn in professional engineering environments.
+          Building intelligent, quality-driven software solutions with expertise in web technologies 
+          (React, TypeScript, JavaScript), AI/ML development (Python), and rigorous QA/testing practices. 
+          Passionate about creating reliable applications and solving complex problems through code and automation.
         </p>
 
         {/* CTA Buttons */}
@@ -45,6 +45,12 @@ const HeroSection = () => {
             <a href="#resume" className="flex items-center gap-2">
               <FileText size={20} />
               View Resume
+            </a>
+          </Button>
+          <Button variant="hero-outline" size="lg" asChild>
+            <a href="/resume.pdf" download="Virginia_Wamaitha_Resume.pdf" className="flex items-center gap-2">
+              <Download size={20} />
+              Download CV
             </a>
           </Button>
           <Button variant="hero-outline" size="lg" asChild>
