@@ -10,10 +10,10 @@ const Footer = () => {
           {/* Logo & copyright */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="font-heading text-lg font-bold gradient-text">
-              Portfolio
+              Virginia Wamaitha
             </span>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
-              © {currentYear} Your Name. Built with{" "}
+              © {currentYear} Virginia Wamaitha. Built with{" "}
               <Heart size={14} className="text-primary fill-primary" />
             </p>
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
           {/* Social links */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/virgi-niawamaitha"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-secondary border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
@@ -46,7 +46,7 @@ const Footer = () => {
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-secondary border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
@@ -55,7 +55,7 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:wamaithavirginia83@gmail.com"
               className="w-10 h-10 rounded-lg bg-secondary border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
               aria-label="Email"
             >

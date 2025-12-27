@@ -26,25 +26,25 @@ const ResumeSection = () => {
               </div>
 
               <h3 className="font-heading text-2xl font-semibold mb-2">
-                Your Name - Resume
+                Virginia Wamaitha Muranga - Resume
               </h3>
               <p className="text-muted-foreground mb-8">
-                Computer Science Student | QA & Software Testing
+                Computer Science Student | AI Enthusiast | QA & Software Testing
               </p>
 
               {/* Resume highlights */}
               <div className="grid sm:grid-cols-3 gap-4 mb-8">
                 <div className="p-4 rounded-lg bg-secondary">
-                  <div className="text-2xl font-bold gradient-text">3+</div>
+                  <div className="text-2xl font-bold gradient-text">5+</div>
                   <div className="text-sm text-muted-foreground">Projects</div>
                 </div>
                 <div className="p-4 rounded-lg bg-secondary">
-                  <div className="text-2xl font-bold gradient-text">10+</div>
+                  <div className="text-2xl font-bold gradient-text">15+</div>
                   <div className="text-sm text-muted-foreground">Skills</div>
                 </div>
                 <div className="p-4 rounded-lg bg-secondary">
-                  <div className="text-2xl font-bold gradient-text">2+</div>
-                  <div className="text-sm text-muted-foreground">Years Learning</div>
+                  <div className="text-2xl font-bold gradient-text">4</div>
+                  <div className="text-sm text-muted-foreground">Years CS</div>
                 </div>
               </div>
 

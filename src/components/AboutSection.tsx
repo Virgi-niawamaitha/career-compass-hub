@@ -41,20 +41,19 @@ const AboutSection = () => {
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-lg text-foreground/90 leading-relaxed">
-              I'm a Computer Science student with a strong passion for software quality 
-              and development. My journey began with curiosity about how software works, 
-              and has evolved into a deep interest in ensuring it works <em>correctly</em>.
+              I'm a 4th-year Computer Science student at Mt. Kenya University with a strong 
+              passion for AI and software quality. My journey includes hands-on experience from 
+              a government IT internship and active participation in tech communities.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Whether I'm writing test cases, debugging code, or building new features, 
-              I approach each task with attention to detail and a commitment to excellence. 
-              I believe that great software is built on a foundation of thorough testing 
-              and thoughtful design.
+              With practical exposure to IT support, software testing, and quality assurance, 
+              I approach each task with analytical thinking and attention to detail. I'm an 
+              active member of GDSC, AWS Cloud Club, Women in Tech Kenya, and ReadyTensor Community.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Currently seeking opportunities in QA Engineering, Software Development, 
-              or AI/Data roles where I can contribute my skills while continuing to 
-              grow as a professional.
+              Currently seeking QA/QE attachment opportunities to develop automated testing 
+              expertise and contribute to software quality assurance while continuing to 
+              explore AI and intelligent systems.
             </p>
           </div>
 

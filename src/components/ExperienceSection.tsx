@@ -1,29 +1,29 @@
-import { Briefcase, GraduationCap, Calendar } from "lucide-react";
+import { Briefcase, GraduationCap, Calendar, Users } from "lucide-react";
 
 const experiences = [
   {
     type: "education",
     title: "Bachelor of Science in Computer Science",
-    organization: "Your University Name",
-    period: "2022 - Present",
-    description: "Focusing on software engineering, data structures, and quality assurance. Maintaining strong academic performance while participating in coding clubs and tech events.",
-    highlights: ["GPA: 3.5/4.0", "Dean's List", "Programming Club Member"],
+    organization: "Mt. Kenya University, Thika, Kenya",
+    period: "Expected Graduation: August 2026",
+    description: "Currently in 4th year, focusing on software engineering, AI/ML, and quality assurance. Active member of GDSC, AWS Cloud Club, and Women in Tech Kenya.",
+    highlights: ["4th Year", "GDSC Member", "AWS Cloud Club", "Women in Tech Kenya"],
   },
   {
     type: "experience",
-    title: "Software Testing Intern",
-    organization: "Tech Company Name",
-    period: "Summer 2024",
-    description: "Assisted the QA team with manual testing of web applications. Documented bugs, created test cases, and participated in sprint planning meetings.",
-    highlights: ["Manual Testing", "Bug Documentation", "Agile/Scrum"],
+    title: "IT Attachment Student",
+    organization: "Ministry of Information, Communications and Digital Economy",
+    period: "May 2023 - August 2023",
+    description: "Worked at the State Department for ICT and Digital Economy, Directorate of ICT Infrastructure. Installed, configured, and tested hardware/software. Provided technical support and troubleshooting.",
+    highlights: ["Hardware/Software Installation", "Technical Support", "Network Monitoring", "Documentation"],
   },
   {
-    type: "experience",
-    title: "IT Support Attachment",
-    organization: "Organization Name",
-    period: "2023",
-    description: "Provided technical support and helped maintain internal systems. Gained hands-on experience with troubleshooting and documentation.",
-    highlights: ["Technical Support", "System Maintenance", "Documentation"],
+    type: "community",
+    title: "Professional Development & Community",
+    organization: "Tech Communities",
+    period: "Ongoing",
+    description: "Active participant in multiple tech communities including Google Developer Student Clubs (GDSC), AWS Cloud Club, Women in Tech Kenya, The Odin Project, and ReadyTensor Community.",
+    highlights: ["GDSC", "AWS Cloud Club", "Women in Tech Kenya", "ReadyTensor"],
   },
 ];
 
@@ -64,6 +64,8 @@ const ExperienceSection = () => {
                     <div className="flex items-center gap-2 mb-3">
                       {item.type === "education" ? (
                         <GraduationCap className="w-4 h-4 text-primary" />
+                      ) : item.type === "community" ? (
+                        <Users className="w-4 h-4 text-primary" />
                       ) : (
                         <Briefcase className="w-4 h-4 text-primary" />
                       )}
