@@ -41,21 +41,21 @@ const AboutSection = () => {
           {/* Bio */}
           <div className="space-y-6">
             <p className="text-lg text-foreground/90 leading-relaxed">
-              Hi! I'm Virginia Wamaitha, a Computer Science student at Mt. Kenya University 
-              passionate about software development, AI/ML, and quality assurance. I love building 
-              projects that solve real problems and learning new technologies along the way.
+              Hi! I'm Virginia Wamaitha, a Computer Science student at Mt. Kenya University with a 
+              passion for AI and software quality. I love exploring new technologies, building projects, 
+              and learning how to create reliable software through testing and best practices.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I've gained hands-on experience through a government IT internship at the Ministry of ICT, 
-              where I worked with hardware/software installation and technical support. My projects span 
-              web development (HTML, CSS, JavaScript, React), AI/ML exploration (Python), and testing 
-              practices. I'm comfortable with Git/GitHub and enjoy collaborating in tech communities 
-              like GDSC, AWS Cloud Club, and Women in Tech Kenya.
+              Through my IT internship at the Ministry of ICT, I gained hands-on experience with 
+              technical support and system testing. I'm now building my skills in web development 
+              (HTML, CSS, JavaScript, React), exploring AI/ML with Python, and learning software testing 
+              methodologies. I actively participate in tech communities like GDSC, AWS Cloud Club, and 
+              Women in Tech Kenya.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Currently seeking attachment opportunities to grow my skills in software engineering, 
-              QA/testing, AI/ML, or web development. I'm eager to learn, contribute to real-world 
-              projects, and develop my technical abilities in a professional environment.
+              Open to tech internships, attachment opportunities, and collaborative projects where I can 
+              contribute while growing my skills in software development, AI/ML, or quality assurance. 
+              Always eager to learn and take on new challenges!
             </p>
           </div>
 

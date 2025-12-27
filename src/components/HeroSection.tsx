@@ -29,14 +29,13 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="animate-fade-up-delay-2 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 font-heading">
-          Computer Science Student | Aspiring Software Engineer
+          AI Enthusiast | Computer Science Student | Exploring QA & Software Testing
         </p>
 
         {/* Value statement */}
         <p className="animate-fade-up-delay-2 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground/80 mb-10 leading-relaxed">
-          Building projects with web technologies (HTML, CSS, JavaScript, React), exploring AI/ML with Python, 
-          and learning software testing practices. Seeking attachment opportunities to grow my skills and 
-          contribute to real-world software development.
+          Building projects with web technologies, exploring AI/ML with Python, and learning software testing 
+          practices. Open to tech internships and projects where I can learn and contribute.
         </p>
 
         {/* CTA Buttons */}
