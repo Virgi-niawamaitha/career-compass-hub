@@ -105,7 +105,7 @@ const ContactSection = () => {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/virginia-wamaitha"
+                  href="https://www.linkedin.com/in/techgirlvirginia/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-lg bg-card border border-border flex items-center justify-center hover:border-primary/50 hover:bg-primary/10 transition-all duration-300"
